@@ -5,6 +5,7 @@
 import type { LocaleDefinition } from '../..';
 import metadata from './metadata';
 import person from './person';
+import word from './word';
 
 /**
  * The locale data for the `sl_SI` locale.
@@ -15,6 +16,7 @@ import person from './person';
 const sl_SI: LocaleDefinition = {
   metadata,
   person,
+  word,
 };
 
 export default sl_SI;
